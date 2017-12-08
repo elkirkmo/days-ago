@@ -1,0 +1,29 @@
+{
+	"manifest_version": 2,
+
+	"name" : "Days Ago",
+	"description" : "Replaces Days Ago with a useful date.",
+	"version" : "0.1",
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+
+"permissions": [
+	"tabs",
+    "http://www.pantheon.io/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*.pantheon.io/*"],
+      "js": ["popup.js"],
+      "css": ["hider.css"],
+      "run_at": "document_end"
+    }],
+ "page_action": 
+ {
+	"default_icon": "128.png"
+ }
+
+}
