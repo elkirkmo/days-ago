@@ -1,0 +1,11 @@
+{
+  "name": "days-ago",
+  "version": "1.0.0",
+  "description": "Chrome Extension that replaces the phrase \"Days Ago\" with a useful date.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Chris Kirkham",
+  "license": "ISC"
+}
